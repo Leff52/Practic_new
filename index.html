@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>First task</title>
+<!-- создаю стили чтобы было приятно глазу а также настраиваю картинки -->
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: 'Arial',sans-serif;
+            font-size: 18px;
+            font-weight: normal;
+
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .black{
+            display: flex;
+            justify-content: space-between;
+        }
+        .stroka{
+            padding: 10px;
+
+        }
+        .img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .img2{
+            height: 30px;
+            width: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- создаю раздел для верхней части и для будущего добавляю класс -->
+    <header>
+        <div class="black">
+            <!-- здесь ссылка внутри картинки -->
+             <div>
+                <a href="https://peppa-pig.fandom.com/ru/wiki/%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%A1%D0%B2%D0%B8%D0%BD" target="_blank"><img src="антон.jpg" alt="52" class="img"></a>
+                <p>logo</p>
+                
+             </div>
+             <div >
+                <p>Группа ЭФБО-04-23</p> 
+                <p>Пихта Лев</p>
+            </div>
+
+        </div>
+        <hr>
+<!-- здесь аналогично добавляю на будущее класс -->
+
+        <div class="stroka">
+
+                <a href="#">Главная</a>
+                <a href="#">Первый семестр</a>
+                <a href="#">Второй семестр</a>
+                <a href="#">Услуги</a>
+                <a href="#">Авторизация</a>
+            <a href="index2.html" target="_blank"> переход на вторую страницу </a>
+        </div>
+        <hr>    
+    </header>
+
+    <body>
+        <!-- создаю боковую панель -->
+        <aside >
+            <p>Навигация по странице</p>
+
+                <a href="#front">Фронтенд</a>
+                <br>
+                <a href="#back-end">Бэкенд</a>
+
+        </aside>
+        
+        <!-- здесь создаю main а внутри еще section для дальнейшего удобства работы -->
+        <main>
+            <div class="container" ">
+                <h2>
+                    Hello это мой сайт
+                </h2>
+                <p>
+                    Меня зовут Лев и я начинающий Frontend-developed, это мой первый сайт
+                </p>
+                <img src="лицо_сигмы.png" alt="52" class="img">
+            </div>
+            <section>
+                <div id="front">
+                    <p>Фронтенд</p>
+                    <!-- здесб мне было лень что-то придумывать я воспользовался Lorem -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut est sed fugiat ipsa, quia iste voluptate ducimus, quo excepturi unde aspernatur, reiciendis qui ea a error provident officiis sunt.</p>
+                </div>
+            </section>
+
+            <section>
+                <div id="back-end">
+                    <p>Бэкенд</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veritatis dolores ipsam ea ut eligendi expedita similique, molestias rem aliquid labore asperiores ipsum voluptatem aspernatur accusantium vel maxime alias ullam.</p>
+                </div>
+            </section>
+            
+
+        </main>
+    </body>
+    <footer>
+        <div>
+            <!-- а здесб специалный символ перед информацией кто я такой -->
+            <p> &copy Пихтовников Лев Станиславович, 2024 </p>
+            <a href="https://t.me/Levka_flower" target="_blank"><img src="free-icon-telegram-5968804.png" alt="52" class="img2"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
