@@ -18,7 +18,7 @@ function toggleVisibility(selector) {
 	}
 }
 
-// Функция для замены текста H1, если в URL есть параметр utm_term
+
 function updateHeaderFromUTM() {
 	const params = new URLSearchParams(window.location.search)
 	const utmTerm = params.get('utm_term')
@@ -61,18 +61,18 @@ document.getElementById('nikolay').addEventListener('mouseover', event => {
 	event.target.style.height = '220px'
 })
 
-// Восстановление размера после ухода курсора
+
 document.getElementById('nikolay').addEventListener('mouseout', event => {
 	event.target.style.width = '200px'
 	event.target.style.height = '200px'
 })
 
-// Замена фотографии при клике
+
 document.getElementById('nikolay').addEventListener('click', event => {
-	event.target.src = 'photo/sex.jpg' // Замените "teacher.jpg" на реальный путь к фото преподавателя
+	event.target.src = 'photo/СИЛАЧ.jpg' 
 })
 
-// Двойной клик с сообщением
+
 document.getElementById('nikolay').addEventListener('dblclick', () => {
 	alert('Не налегай, у меня не так много любимых преподавателей')
 })

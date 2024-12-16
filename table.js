@@ -1,9 +1,9 @@
-// Обработчик кнопки "Посмотреть практики второго семестра"
+
 document.getElementById('changePractices').addEventListener('click', () => {
 	const practicesTable = document.getElementById('practices')
 	const tbody = practicesTable.querySelector('tbody')
 
-	// Заменяем содержимое таблицы на темы второго семестра
+
 	tbody.innerHTML = `
         <tr>
             <td>Номер</td>
